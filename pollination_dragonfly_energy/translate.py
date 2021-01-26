@@ -40,7 +40,7 @@ class ModelToHoneybee(Function):
 
     @command
     def model_to_honeybee(self):
-        return 'dragonfly translate model-to-honeybee model.json ' \
+        return 'dragonfly translate model-to-honeybee model.dfjson ' \
             '--obj-per-model {{self.obj_per_model}} --{{self.use_multiplier}} ' \
             '--{{self.include_plenum}} --shade-dist {{self.shade_dist}} --folder output ' \
             '--log-file output/hbjson_info.json'

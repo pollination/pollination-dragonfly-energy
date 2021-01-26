@@ -20,7 +20,7 @@ __queenbee__ = {
     },
     'config': {
         'docker': {
-            'image': 'ladybugtools/dragonfly-energy:1.11.18',
+            'image': 'ladybugtools/dragonfly-energy:1.11.19',
             'workdir': '/home/ladybugbot/run'
         }
     }
