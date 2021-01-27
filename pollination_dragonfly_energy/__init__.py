@@ -9,7 +9,7 @@ __queenbee__ = {
     'sources': [
         'https://github.com/ladybug-tools/dragonfly-energy'
     ],
-    'tag': '0.2.0',  # tag for dragonfly-energy plugin on Pollination
+    'tag': '0.1.0',  # tag for dragonfly-energy plugin on Pollination
     'keywords': ['ladybug-tools', 'dragonfly', 'energyplus', 'openstudio', 'energy'],
     'maintainers': [
         {'name': 'chris', 'email': 'chris@ladybug.tools'}
