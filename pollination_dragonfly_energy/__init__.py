@@ -4,7 +4,7 @@
 __queenbee__ = {
     'name': 'dragonfly-energy',
     'description': 'Dragonfly energy plugin for Pollination.',
-    'icon': 'https://raw.githubusercontent.com/ladybug-tools/artwork/master/icons_bugs/grasshopper_tabs/HB-Energy.png',
+    'icon': 'https://raw.githubusercontent.com/ladybug-tools/artwork/master/icons_bugs/grasshopper_tabs/Dragonfly.png',
     'home': 'https://ladybug.tools/dragonfly-energy/docs',
     'sources': [
         'https://github.com/ladybug-tools/dragonfly-energy'
