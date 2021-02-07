@@ -1,4 +1,4 @@
-from pollination_dragonfly_energy.translate import ModelToHoneybee
+from pollination.dragonfly_energy.translate import ModelToHoneybee
 from queenbee.plugin.function import Function
 
 
