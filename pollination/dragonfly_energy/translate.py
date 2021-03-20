@@ -31,11 +31,12 @@ class ModelToHoneybee(Function):
         spec={'type': 'string', 'enum': ['no-plenum', 'plenum']}
     )
 
-    shade_dist = Inputs.float(
+    shade_dist = Inputs.str(
         description='A number to note the distance beyond which other buildings shade '
-        'should be excluded from a given Honeybee Model. This number should always be '
-        'in meters regardless of the input Dragonfly model units. If 0, shade from all '
-        'neighboring buildings will be excluded from the resulting models.', default=50
+        'should be excluded from a given Honeybee Model. This can include the units of '
+        'the distance (eg. 100ft) or, if no units are provided, the value will be '
+        'interpreted in the dragonfly model units. If 0, shade from all neighboring '
+        'buildings will be excluded from the resulting models.', default='50m'
     )
 
     @command
