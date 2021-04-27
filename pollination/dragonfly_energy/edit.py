@@ -20,7 +20,7 @@ class WindowsByRatio(Function):
     )
 
     @command
-    def lighting_2004(self):
+    def windows_by_ratio(self):
         return 'dragonfly edit windows-by-ratio model.dfjson {{self.ratio}} ' \
             '--output-file new_model.dfjson'
 
